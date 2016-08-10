@@ -1,0 +1,77 @@
+orlykor12
+203595541
+orly koren
+
+I discussed the exercise with: hofit bata, Gal kaplon
+
+=============================
+=  README for ex6- recursion
+=============================
+
+usage: python3.3 palindrome.py 
+python3.3 balanced_brackets.py
+python3.3 y_tree.py
+
+==================
+=  Description:  =
+==================
+
+palindrome- in this ex we needed to check if the given strings are in the form
+of a palindrome or not. this means that if we can read the string from the 
+begining to the end and also backwards. we needed to do first the whole word 
+(recursivly) and in the 2nd func we needed to do it within given indexes.
+
+
+balanced_brackets- 
+in this ex, we needed to check in the first func if the given string is 
+balanced or not. balanced means that if for every '(' we have his ')' partner. 
+if it is, it returns true if not false.
+we didnt need to use recursion over here.
+#### in those next two funcs we needed to do recursive funcs ###
+in the 2nd func we needed to check whether or not the string is balanced.
+if it is it returns -1, if not, the inside func checks the index the problem
+is in, if we need to fix it with '(' then it returns the index, if we need
+to fix it with ')' then it returns the length.
+in the 3rd func we needed to find matched brackets. first, the func checks if
+the string is balanced, if not it return an empty list []. if it is then
+it goes into the sub-func. this func returns the value of distance between a
+pair of "()". for "(" positive num and for ")" negetive num. for other items 
+0.
+
+y_tree-
+we needed to draw a tree recursviley using the turtle modoul.
+
+
+
+test_strings_2a-c
+tricked strings to check if the func is working correctly for complex strings.
+
+
+
+
+=============================
+=  List of submitted files: =
+=============================
+
+palindrome.py 
+balanced_brackets.py
+y_tree.py
+test_strings_2a.txt
+test_strings_2b.txt
+test_strings_2c.txt
+README
+
+
+======================
+=  Special Comments  =
+======================
+
+
+it was unclear whether we should put the defult length  200 (in ex 3) in the
+func or assum that it is the len and thats what we will get to the func. 
+i put it in but i wasnt sure what you mean. the opinions of my classmates were 
+different.
+
+ 
+
+
